@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+}
+
+/*All Heading Tags*/
+
+h1
+h2
+h3
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p
+a
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover{
+    color: antiquewhite;
+}
+
+.nav{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav h1{
+    width: 50%;
+    float: left;
+}
+
+.nav ul{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 10px;
+    word-spacing: 10px;
+}
+
+.nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+/*Banner Area*/
+
+.banner{
+    height: 650px;
+    background-color: orange;
+    background-image: url(../images/atf-image.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+}
+
+.banner-text{
+    width: 30%;
+    position: relative;
+    top: 20%; left: 7.5%;
+}
+
+.banner h2{
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -5px;
+    color: #262624;
+}
+
+.banner a{
+    padding: 15px 20px;
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}

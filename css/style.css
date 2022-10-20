@@ -154,6 +154,7 @@ a:hover{
 }
 
 .ads-text h3{
+    text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-size: 200%;
@@ -167,5 +168,218 @@ a:hover{
 }
 
 .ads-text a:hover{
-    color: brown;
+    color: wheat;
 }
+
+/*Menu*/
+
+.menu-text{
+    text-align: center;
+}
+
+.menu-text p{
+    color:  rgb(184, 154, 109);
+    font-style: italic;
+    font-size: 120%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.menu-text h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+
+hr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    border-top: solid 3.5px rgb(184, 154, 109);
+    width: 10%;
+    display: block;
+    height: 20px;
+}
+
+/*Products*/
+
+.wrap-products{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.products{
+    padding: 0%;
+    margin-left: 0%;
+    margin-right: 1%;
+    width: 60%;
+    height: 60%;
+}
+
+/*Ads 3*/
+.ads-3{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-image: url(../images/banner.jpg);
+    background-repeat: none;
+    background-size: cover;
+    width: 80%;
+    height: 300px;
+}
+
+.ads-3text{
+    text-align: center;
+    padding: 8%;
+}
+
+.ads-3text h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+    margin-bottom: 2%;
+}
+
+.ads-3text p{
+    color:  rgb(207, 180, 140);
+    font-style: italic;
+    font-size: 120%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.ads-3text a{
+    margin-top: 25%;
+    padding:  10px;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.ads-3text a:hover{
+    color: antiquewhite;
+}
+
+/*Merchandise Sale*/
+
+.merchandise {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.merchandise p{
+    color:  rgb(207, 180, 140);
+    font-style: italic;
+    font-size: 120%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.merchandise h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 200%;
+    margin-bottom: 1%;
+}
+
+/*Ads 4,5,6,7*/
+
+.ads-box2{
+    margin-bottom: 5%;
+    width: 49%;
+    height: 300px;
+    background-color:#262624;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.mother-ad{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+
+}
+
+.ads-box2:nth-child(1),
+.ads-box2:nth-child(3){
+    float: left;
+}
+
+.ads-box2:nth-child(2),
+.ads-box2:nth-child(4){
+    float:right;
+}
+
+.ads-box2:nth-child(3),
+.ads-box2:nth-child(4){
+    margin-top: -60px;}
+
+.ads-box2:nth-child(1),
+.ads-box2:nth-child(2),
+.ads-box2:nth-child(3),
+.ads-box2:nth-child(4){
+    margin-right: 1%;
+}
+
+.ads-box2:nth-child(1){
+    background-image: url(../images/merchandise3.jpg);
+}
+
+.ads-box2:nth-child(2){
+    background-image: url(../images/merchandise4.jpg);
+}
+
+.ads-box2:nth-child(3){
+    background-image: url(../images/merchandise5.jpg);
+}
+
+.ads-box2:nth-child(4){
+    background-image: url(../images/merchandise6.jpg);
+}
+
+.ads-text2{
+    overflow: auto;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 20%;
+    text-align: left;
+}
+
+.ads-text2 h3{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 160%;
+    margin-bottom: 1%;
+}
+
+.ads-text2 a{
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.ads-text2 a:hover{
+    color: wheat;
+}
+
+/* Reservartion */
+
+#reservation{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.reserve-text{
+text-align: center;
+}
+
+

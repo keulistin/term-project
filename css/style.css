@@ -12,13 +12,13 @@ h1
 h2
 h3
 h4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p
 a
 label{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a:hover{
@@ -46,7 +46,7 @@ a:hover{
 }
 
 .nav a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     text-decoration: none;
 }
@@ -58,9 +58,9 @@ a:hover{
 /*Banner Area*/
 
 .banner{
-    height: 650px;
+    height: 600px;
     background-color: orange;
-    background-image: url(images/atf-image.jpg);
+    background-image: url(../images/atf-image.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 5%;
@@ -72,13 +72,19 @@ a:hover{
     top: 20%; left: 7.5%;
 }
 
+
+
 .banner h2{
     text-transform: uppercase;
-    font-size: 75px;
-    line-height: 75px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: -5px;
+    font-size: 65px;
+    line-height: 55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #262624;
+}
+
+#textgreen{
+    color: rgb(73, 136, 73);
+    margin-bottom: 2%;
 }
 
 .banner a{
@@ -89,4 +95,77 @@ a:hover{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.banner p{
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+#learntext{
+    background-color: rgb(65, 57, 48);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Ads Area 1*/
+
+.ads{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.ads-box{
+    width: 49.5%;
+    float: left;
+    height: 350px;
+    background-color:#262624;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.ads-box:nth-child(1),
+.ads-box:nth-child(3){
+    margin-right: 1%;
+}
+
+.ads-box:nth-child(1),
+.ads-box:nth-child(2){
+    margin-bottom: 1%;
+}
+
+.ads-box:nth-child(1){
+    background-image: url(../images/merchandise1.jpg);
+}
+
+.ads-box:nth-child(2){
+    background-image: url(../images/merchandise2.jpg);
+}
+
+.ads-text{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+.ads-text h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+
+.ads-text a{
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.ads-text a:hover{
+    color: brown;
 }
